@@ -22,7 +22,6 @@ const App = () => {
         faceShowFlag && setFaceShowFlag(false);
       }
     }
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [num]);
 
   return (
